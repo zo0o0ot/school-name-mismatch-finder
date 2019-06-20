@@ -46,10 +46,17 @@ namespace name_mismatch_finder
                                     }
                                     ;
             
+            bool noMismatches = true;
+            
             foreach(var s in schoolMismatches){
+                noMismatches = false;
                 Console.WriteLine($"{s.rank}, {s.name}, {s.college}");
             }
-            
+
+            if(noMismatches)
+            {
+                Console.WriteLine("All good!");
+            }
         }
     }
     public class ProspectRank
