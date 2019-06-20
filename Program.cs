@@ -7,6 +7,7 @@ namespace name_mismatch_finder
     {
         static void Main(string[] args)
         {
+            // Read in data from a different project.
             var schoolsAndConferences = System.IO.File.ReadAllLines("../scrapysharp-dt2020/SchoolStatesAndConferences.csv")
                                         .Skip(1)
                                         .Where(s => s.Length > 1)
