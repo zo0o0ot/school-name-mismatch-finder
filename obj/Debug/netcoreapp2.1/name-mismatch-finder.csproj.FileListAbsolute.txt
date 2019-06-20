@@ -1,0 +1,11 @@
+C:\Code\name-mismatch-finder\bin\Debug\netcoreapp2.1\name-mismatch-finder.deps.json
+C:\Code\name-mismatch-finder\bin\Debug\netcoreapp2.1\name-mismatch-finder.runtimeconfig.json
+C:\Code\name-mismatch-finder\bin\Debug\netcoreapp2.1\name-mismatch-finder.runtimeconfig.dev.json
+C:\Code\name-mismatch-finder\bin\Debug\netcoreapp2.1\name-mismatch-finder.dll
+C:\Code\name-mismatch-finder\bin\Debug\netcoreapp2.1\name-mismatch-finder.pdb
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.csprojAssemblyReference.cache
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.csproj.CoreCompileInputs.cache
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.AssemblyInfoInputs.cache
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.AssemblyInfo.cs
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.dll
+C:\Code\name-mismatch-finder\obj\Debug\netcoreapp2.1\name-mismatch-finder.pdb
