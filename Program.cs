@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Linq;
+using System.IO;
 
 namespace name_mismatch_finder
 {
@@ -7,6 +8,7 @@ namespace name_mismatch_finder
     {
         static void Main(string[] args)
         {
+            string latestPlayerRankings = FindLatestCsvRanksFile();
             // Read in data from a different project.
             var schoolsAndConferences = System.IO.File.ReadAllLines("../scrapysharp-dt2020/SchoolStatesAndConferences.csv")
                                         .Skip(1)
@@ -20,7 +22,7 @@ namespace name_mismatch_finder
             
 
             
-            var ranks = System.IO.File.ReadAllLines("../scrapysharp-dt2020/ranks/2019-05-21-ranks.csv")
+            var ranks = System.IO.File.ReadAllLines(latestPlayerRankings)
                                         .Skip(1)
                                         .Where(r => r.Length > 1)
                                         .Select(r =>
@@ -57,6 +59,16 @@ namespace name_mismatch_finder
             {
                 Console.WriteLine("All good!");
             }
+        }
+
+        private static string FindLatestCsvRanksFile()
+        {
+            // Looking for something like GetFiles() from .NET 4.8
+            var results = Directory.GetFiles("../scrapysharp-dt2020/ranks/", "20??-??-??-ranks.csv").ToList<String>();
+            //The results are probably already sorted, but I don't trust that, so I'm going to sort manually.
+            results.Sort();
+            //Take the file with the latest date, which is most likely to contain errors.
+            return results[results.Count - 1];
         }
     }
     public class ProspectRank
