@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj": {}
+    "C:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj": {}
   },
   "projects": {
-    "c:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj": {
+    "C:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj",
+        "projectUniqueName": "C:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj",
         "projectName": "name-mismatch-finder",
-        "projectPath": "c:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj",
+        "projectPath": "C:\\Code\\name-mismatch-finder\\name-mismatch-finder.csproj",
         "packagesPath": "C:\\Users\\Ross Larson\\.nuget\\packages\\",
-        "outputPath": "c:\\Code\\name-mismatch-finder\\obj\\",
+        "outputPath": "C:\\Code\\name-mismatch-finder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

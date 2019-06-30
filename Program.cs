@@ -8,6 +8,7 @@ namespace name_mismatch_finder
     {
         static void Main(string[] args)
         {
+            System.Console.WriteLine("Checking for mismatches.....");
             string latestPlayerRankings = FindLatestCsvRanksFile();
             // Read in data from a different project.
             var schoolsAndConferences = System.IO.File.ReadAllLines("../scrapysharp-dt2020/SchoolStatesAndConferences.csv")
